@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Inicio de Sesión</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    background-image: url("https://images.hdqwalls.com/wallpapers/the-last-trip-jx.jpg");
+    background-attachment: fixed;
+    background-color: rgba(61, 27, 68, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: transform 0.3s;
+  }
+  form:hover {
+    transform: translateY(-5px); /* Efecto de levantamiento al pasar el cursor */
+  }
+  h2 {
+    text-align: center;
+    color: #6c5ce7; /* Color del texto de "Inicio de Sesión" */
+    margin-bottom: 20px;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #6c5ce7; /* Color del borde de las casillas de texto */
+    border-radius: 5px;
+    outline: none; /* Quita el borde al seleccionar la casilla */
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  button:hover {
+    background: #4834d4; /* Cambio de color al pasar el cursor */
+  }
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+<form>
+  <h2>Inicio de Sesión</h2>
+  <input type="text" placeholder="Usuario" required>
+  <input type="password" placeholder="Contraseña" required>
+  <button type="submit">Entrar</button>
+  <a href="#">¿Olvidaste tu contraseña?</a>
+</form>
+</body>
+</html>
