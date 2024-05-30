@@ -1,5 +1,5 @@
 # first-repositorio
 Sera el primer repositorio?
 
-#descripcion
+# descripcion
 este es un repo mio , i need learn github
