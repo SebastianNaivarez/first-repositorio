@@ -2,4 +2,4 @@
 Sera el primer repositorio?
 
 # descripcion
-este es un repo mio , i need learn git and github
+este es un repo mio , I need learn git and github
